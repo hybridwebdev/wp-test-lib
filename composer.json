@@ -1,0 +1,17 @@
+{
+    "name": "hybrid-web-dev/wp-test-lib",
+    "autoload": {
+        "psr-4": {
+            "WPTestLib\\Phpunit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hybrid Web Dev",
+            "email": "private@email.com"
+        }
+    ],
+    "require-dev": {
+        "yoast/phpunit-polyfills": "2.0"
+    }
+}

@@ -1,0 +1,10 @@
+<phpunit 
+        bootstrap="boot.php" 
+        colors="true" 
+>
+        <testsuites>
+                <testsuite name='test1'>
+                        <file>test-suite-1/test-1.php</file>
+                </testsuite>
+        </testsuites>
+</phpunit>

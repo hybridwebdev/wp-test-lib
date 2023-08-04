@@ -1,0 +1,1 @@
+{"version":1,"defects":{"TestSuite::test_create_post":4,"TestSuite::test2":4,"TestSuite::test_stefan":3},"times":{"TestSuite::test_create_post":0.046,"TestSuite::test2":0.001,"TestSuite::test_stefan":0.037,"TestSuite::test_1":0.038}}
