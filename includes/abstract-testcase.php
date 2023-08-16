@@ -12,7 +12,10 @@ require_once __DIR__ . '/trac.php';
  *
  * All WordPress unit tests should inherit from this class.
  */
+
 abstract class WP_UnitTestCase_Base extends PHPUnit_Adapter_TestCase {
+
+	use DMS\PHPUnitExtensions\ArraySubset\ArraySubsetAsserts;
 
 	protected static $forced_tickets   = array();
 	protected $expected_deprecated     = array();
